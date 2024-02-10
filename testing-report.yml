@@ -6,3 +6,25 @@
 - summary: |
      Поиск товара по ключевому слову (символы в верхнем регистре)
   status: fail
+  
+- summary: |
+     Пользователь должен получит все товары относящиеся к выбранной категории
+  status: pass
+
+- summary: |
+     Фильтрация по производителю
+  status: pass
+  
+- summary: |
+     Проверка фильтра Цена/Price (min = 0 max = 11190)
+  status: pass
+  
+- summary: |
+     Проверка фильтра Цена/Price (min = 0 max = 0)
+  status: pass
+  
+- summary: |
+     Проверка фильтра Цена (from = 220 to = 220)
+  status: pass
+  
+
