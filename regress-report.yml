@@ -129,7 +129,7 @@ bugreports:
   environment: |
     Firefox   115.7.0esr (64-разрядный)
     ОС Linux 20.04
-  steps:
+  steps-to-reproduce: |
     1. Загрузить стартовую страницу
     2. Вводим 0 в поле from
     2  Вводим 0 в поле to
