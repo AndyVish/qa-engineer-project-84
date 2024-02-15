@@ -129,7 +129,7 @@ bugreports:
       Firefox   115.7.0esr (64-разрядный)
       ОС Linux 20.04
   steps:
-    1. Загрузить стартовую страницу https://hexlet-products-store.vercel.app/
+    1. Загрузить стартовую страницу
     2. Вводим 0 в поле from
     2  Вводим 0 в поле to
   expected-result: |
@@ -143,7 +143,7 @@ bugreports:
     Firefox   115.7.0esr (64-разрядный)
     ОС Linux 20.04
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    1. Загрузить стартовую страницу
     2. Выбрать любую категорию из списка
     3. У первого товара в списке, скопировать цену
     4. Вставить цену в поле from
@@ -159,7 +159,7 @@ bugreports:
     Firefox   115.7.0esr (64-разрядный)
     ОС Linux 20.04
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    1. Загрузить стартовую страницу
     2. Ввести в поле from значение указанное в плейсхолдере поля to 
     3. Увеличить значение поля from c помощью контрола "up"
   expected-result: |
@@ -173,7 +173,7 @@ bugreports:
     Firefox   115.7.0esr (64-разрядный)
     ОС Linux 20.04
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    1. Загрузить стартовую страницу
     2. Установить значение равное 0(ноль) в поле from
     3. Уменьшить значение в поле from c помощью контрола "down"
   expected-result: |
@@ -187,7 +187,7 @@ bugreports:
     Firefox   115.7.0esr (64-разрядный)
     ОС Linux 20.04
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    1. Загрузить стартовую страницу
     2. Выбрать категорию
     3. Выбрать первую карточку из списка
     4. Нажать кнопку "Add to Cart"
@@ -207,12 +207,12 @@ bugreports:
     Firefox   115.7.0esr (64-разрядный)
     ОС Linux 20.04
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    1. Загрузить стартовую страницу
     2. В поле поиска написать любое слово
     3. Выбрать любую категорию
     4. Отметить любой чек бокс
     5. Указать любую цену
-    6. Открыть новую вкладку браузера по адресу https://hexlet-products-store.vercel.app/    
+    6. Загрузить стартовую страницу в новой вкладке браузера
   expected-result: |
     Все указанные фильтры должны остаться без изменений
   actual-result: |
@@ -224,13 +224,13 @@ bugreports:
     Firefox   115.7.0esr (64-разрядный)
     ОС Linux 20.04
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    1. Загрузить стартовую страницу
     2. Выбрать категорию
     3. Выбрать первую карточку из списка
     4. Нажать кнопку "Add to Cart"
     5. Выбрать другую категорию 
     6. Повторить шаги 2 и 3
-    7. Открыть новую вкладку браузера по адресу https://hexlet-products-store.vercel.app/    
+    7. Загрузить стартовую страницу в новой вкладке браузера    
     8. Нажать на ссылку "Cart"    
   expected-result: |
     Пользователь должен видеть информацию о выбранных им товарах из последнего сеанса
@@ -243,7 +243,7 @@ bugreports:
     Firefox   115.7.0esr (64-разрядный)
     ОС Linux 20.04
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    1. Загрузить стартовую страницу
     2. Навести курсор на первую карточку товара в списке
     3. Убрать курсор с карточки
     4. Навести курсор на первую карточку товара в списке
@@ -258,7 +258,7 @@ bugreports:
     Firefox   115.7.0esr (64-разрядный)
     ОС Linux 20.04
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    1. Загрузить стартовую страницу
     2. Нажать ссылку Language       
   expected-result: |
     Пользователь должен видеть графический элемент для каждого языка
@@ -271,7 +271,7 @@ bugreports:
     Firefox   115.7.0esr (64-разрядный)
     ОС Linux 20.04
   steps-to-reproduce: |
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    1. Загрузить стартовую страницу
     2. Открыть список Category
     3. Открыть список Language
     4. Ввести 123 в поле Search       
