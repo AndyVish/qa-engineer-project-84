@@ -85,7 +85,7 @@
 
 - summary: |
     Пользователь должен иметь возможность удалить все товары из корзины одной кнопкой
-  status: pass
+  status: fail
 
 bugreports:
   - summary: |
