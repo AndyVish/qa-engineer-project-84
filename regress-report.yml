@@ -125,7 +125,7 @@
 bugreports:
   - summary: |
       При вводе в оба поля фильтра Price нулевого значения на странице отсаются все товары
-   environment: |
+  environment: |
       Firefox   115.7.0esr (64-разрядный)
       ОС Linux 20.04
   steps:
