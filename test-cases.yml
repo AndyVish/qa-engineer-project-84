@@ -472,7 +472,7 @@
   test-data: |
     нет
   steps:
-    - Открыть "DevTools - (Recording network log/Ctrl+E)"
+    - Открыть "DevTools - (Recording network log)"
     - Выбрать первую карточку из списка
     - Нажать кнопку "Add to Cart"
     - Нажать на ссылку "Cart"
