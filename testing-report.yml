@@ -20,7 +20,7 @@
   status: pass
   
 - summary: |
-     Проверка фильтра Price (from = 220 to = 220)
+    Проверка фильтра Price, ввод одинакового значения (больше нуля) в оба поля фильтра
   status: fail
 
 - summary: |
