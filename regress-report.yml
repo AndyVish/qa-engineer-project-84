@@ -21,7 +21,7 @@ test-cases:
   status: pass
 
 - summary: |
-     Проверка фильтра Price (from = 220 to = 220)
+     Ввод одинакового значения (больше нуля) в оба поля фильтра Price
   status: fail
 
 - summary: |
